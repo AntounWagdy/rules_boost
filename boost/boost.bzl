@@ -229,7 +229,7 @@ def boost_deps():
             strip_prefix = "boost_1_74_0",
             urls = [
                 # "https://mirror.bazel.build/dl.bintray.com/boostorg/release/1.74.0/source/boost_1_74_0.tar.gz",
-                "https://dl.bintray.com/boostorg/release/1.74.0/source/boost_1_74_0.tar.gz",
+                "https://boostorg.jfrog.io/artifactory/main/release/1.74.0/source/boost_1_74_0.tar.bz2",
             ],
         )
 
